@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+        <title>Functions in Python: Breaking Down Python Functions in Real Life Terms</title>
+        <meta name="description" content="A simple blog post that explains Python functions using analogies and real-life examples.">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+          <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+
+    </head>
+
+    <body>
+       
+        <header>
+            <!--easy navigation-->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#summary">Quick Hints</a></li>
+                    <li><a href="#journal">Understanding Python Functions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#more">More Resources</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <aside class="sidebar-widget" aria-labelledby="function-tips-title">
+
+            <!-- Quick Hints Section -->
+            <section>
+                <h3 id="function-tips-title">Quick Hints: Python Functions</h3>
+                <ul class="hint-list">
+                <li>
+                    <strong>Functions Made Simple:</strong>
+                    <p>Like chores → assign, call, done.</p>
+                </li>
+                <li>
+                    <strong>Quick Tip:</strong>
+                    <p>Parameters = placeholders. Arguments = actual values.</p>
+                </li>
+                <li>
+                    <strong>Pass by Value vs Reference:</strong>
+                    <p>Photocopy (safe) vs Backpack (can change).</p>
+                </li>
+                <li>
+                    <strong>Why Functions?</strong>
+                    <p>Cleaner code. Easier debugging. Less stress.</p>
+                </li>
+                </ul>
+            </section>
+
+            <!-- Blog Link Section -->
+            <section class="related-link">
+                <h3>Want more?</h3>
+                <p>
+                Explore Python loops in the same style: <br /> <br />
+                <a href="https://understanding-loops.netlify.app/" target="_blank">
+                    <em>The Loop Diaries: Understanding Python Loops Through Real-Life Analogies</em>
+                </a>
+                </p>
+            </section>
+
+            <!-- more resources section-->
+            <section id="more">
+                <h3>Learn more about Python functions here:</h3>
+                <div class="more-icons">
+                    <a href="https://www.w3schools.com/python/python_functions.asp" target="_blank" rel="noopener noreferrer">
+                    <img src="media/image.png" alt="Learn HTML from w3school">
+                    </a>
+                    <a href="https://www.freecodecamp.org/news/functions-in-python-a-beginners-guide/" target="_blank" rel="noopener noreferrer">
+                    <img src="media/freecode.png" alt="Learn HTML from w3schools">
+                    </a>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h3>Let’s Connect</h3>
+                <p>
+                Email: 
+                <a href="mailto:muhsinahololade@gmail.com" target="_blank">
+                    muhsinahololade@gmail.com
+                </a>
+                </p>
+
+                <ul class="social-icons">
+                <li>
+                    <a href="https://www.linkedin.com/in/muhsinah-alaran-mnifst-188470215" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/Muhsinahh__" target="_blank" title="X (Twitter)">
+                    <i class="fab fa-x-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Muhsinah-moninuola" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                </ul>
+            </section>
+
+        </aside>
+
+
+        <main>
+            <section class="hero">
+                <h2>This is a simple blog that explains python functions</h2>
+                <p>Functions in Python don’t have to feel abstract. 
+                    I think of them like assigning chores at home: one person gets dishes, another sweeping, another laundry. Call their name, and they know exactly what to do. 
+                    That’s exactly how functions work in code.
+                </p>
+            </section>
+
+            <section id="home">
+
+                <h2>About</h2>
+                <p>👋🏽 Hi, This blog is where I share my coding journey, not with heavy theory, but through analogies and real-life examples that help concepts stick.
+                    Today’s entry is about Python functions. Kindly note that this is not <strong>a formal tutorial</strong>. It just explain python concepts in a relatable way.
+                    Join me as I learn, and I hope you find this helpful as well. 
+                </p>
+            
+                <img src="media/Defining-python-functions.jpeg" alt="Illustration of Python functions definition" class="home-pic" />
+            </section>
+
+
+            <section id="summary">
+                <div class="card-container">
+
+                    <div class="summary-card">
+                        <h3>What Functions are</h3>
+                        <p>Blocks of code with specific jobs. Like people doing chores</p>
+                        
+                    </div>
+
+                    <div class="summary-card">
+                        <h3>Pass by value vs Pass by reference</h3>
+                        <p>Photocopy vs diary analogy.</p>
+                    </div>
+
+                    <div class="summary-card">
+                        <h3>Types of Functions</h3>
+                        <p>Default, keyword, positional, etc. Each with its own style.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="journal">
+                <h2>Understanding Python Functions</h2>
+
+                <article>
+                    <h3>What are Functions?</h3>
+                    <p>A function is basically a block of code that performs a specific task. Python gives us built-in ones like 
+                        <code>print()</code> or <code>len()</code>, and modules bring more (like <code>math.sqrt()</code>). 
+                        The cool part is: you can define your own functions. It makes your code cleaner, easier to read, and less stressful to debug.
+                        It's like defining tasks for a set of people, each to their own task. Once the individual is called, they know it's time to work. 
+                        <br><br />Another example is sharing house chores to members in the house; {Tola; Dishes, Kemi; Sweeping; Ope; washing}. 
+                        See what I did there, I stored it like a dictionary. Back to the matter, once Ope is called, she knows its time to wash and so on.
+                    </p>
+                    <p>
+                        <br><strong>Basic Syntax:</strong><br />
+<pre><code>
+def function_name():
+    print("Hello from a function")
+function_name()
+</code></pre>
+                        
+                        <ul>
+                            <li>def</code> → defines the function</li>
+                            <li>Function name → e.g. <code>greet</code></li>
+                            <li>Parentheses <code>()</code> → can hold parameters</li>  
+                            <li>Colon <code>:</code> → marks the start of the body</li>
+                            <li>The body → indented instructions (the actual task)</li>
+                            <li>Function call → you must call the function for it to run</li>
+                        </ul>                        
+                    </p>
+                
+
+                <img src="media/house-chores-to-represent-functions.gif" alt="Representation of Functions with house chores" width="300">
+                </article>
+
+                <article>
+                    <h3>Parameters and Arguments</h3>
+                    <p>
+                        A parameter is the variable listed inside the parentheses in the function definition.
+                        An argument is the value that is sent to the function when it is called.
+                        Parameters are like placeholders in the chore list.  
+                        Arguments are the actual people/things filling those spots.  
+                        Imagine a lunch rotation:  
+                        - <em>Parameter:</em> "Who will cook?"  
+                        - <em>Argument:</em> "Kemi"  
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Pass by Value vs Pass by Reference</h3>
+                    <p>When passing arguments into functions, python either gives a copy (safe) or the real thing (modifiable)
+                        It basically means: “If I give you something, are you allowed to change the original, or are you just holding a copy?”
+                    </p>
+
+                    <ol> 
+                        <li>
+                            <strong>Pass by Value</strong>
+                            <p>This one is like giving someone a photocopy of your passport. 
+                                They can draw on it, tear it, or write anything on it, but your real passport at home? Untouched.
+                                Used for immutable types;
+                            </p>
+                            <ul>
+                                <li>Numbers</li>
+                                <li>Strings</li>
+                                <li>Booleans</li>
+                                <li>Tuples</li>
+                            </ul>
+                            <p>
+                                Even if the function tries to change them, the original stays the same.
+                            </p>
+                        </li>
+
+                        <li>
+                            <strong>Pass by Reference</strong>
+                            <p>
+                                This one is like handing over your actual backpack. If they put new books in or remove some, 
+                                your real backpack is affected. No copies — direct access!
+                                Used for mutable types:
+                            </p>
+                            <ul>
+                                <li>Lists</li>
+                                <li>Dictionaries</li>
+                                <li>Sets</li>
+                                <li>Custom objects</li>
+                            </ul>
+                            <p>
+                                If the function modifies these, the original gets updated too.
+                            </p>
+                        </li>
+                    </ol>
+                </article>
+
+                <article>
+                
+                    <h3>Types of Functions in Python</h3>
+
+                    <section>
+                        <h4>Positional (Required) Arguments</h4>
+                        <p>
+                            These arguments must be provided in the exact order defined in the function. 
+                            Imagine standing in line at a bank: the first person gets served first, the second next, and so on. 
+                            If you miss your spot or mix up the order, things don’t work as expected. 
+                            In Python, you must supply these arguments exactly as required, otherwise it will raise an error.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4>Keyword Arguments</h4>
+                        <p>
+                            Keyword arguments are named when you pass them into a function, so the order doesn’t matter. 
+                            Think of filling out a labeled form: name="John", age=25. 
+                            Python knows which value belongs to which parameter because of the labels, not the order.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4>Default Arguments</h4>
+                        <p>
+                            Default arguments come with preset values in the function definition. 
+                            If you don’t provide a value, Python uses the default. 
+                            Imagine ordering a drink at a restaurant: if you don’t specify, water is served by default. 
+                            But if you want juice instead, you can override the default value.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4>Positional-Only Arguments</h4>
+                        <p>
+                            These arguments must be passed by position only. You cannot name them. 
+                            Picture ordering by number at a fast food drive-thru: you say “#3” and move on. 
+                            You can’t describe it in words (“I want a burger with fries”) even if you know what’s inside.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4>Keyword-Only Arguments</h4>
+                        <p>
+                            Keyword-only arguments must be passed by name. You can’t just pass the value without the parameter label. 
+                            Imagine an online order requiring a coupon code: the site says “Use coupon code: ‘SAVE10’ in the coupon box.” 
+                            You must explicitly type the label and value — just writing “SAVE10” alone won’t work.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h4>Arbitrary (Variable-Length) Arguments</h4>
+                        <p>
+                            Sometimes, a function might need to accept any number of extra arguments. Python uses <code>*args</code> 
+                            for extra unnamed positional arguments, and <code>**kwargs</code> for extra named arguments. 
+                            Think of <code>*args</code> as a suitcase that can carry any number of extra clothes, 
+                            and <code>**kwargs</code> as a shopping bag filled with labeled items like “shoes=red, hat=blue.” 
+                            This makes functions flexible and able to handle unexpected input.
+                        </p>
+                    </section>
+
+                    <section>
+                        <p>
+                            <strong>Default Function Note:</strong> When using default values, remember that a positional argument 
+                            cannot follow a keyword argument, but a keyword argument can follow a positional one. 
+                            This ensures Python knows exactly which value goes where.
+                        </p>
+                    </section>
+                </article>
+            </section>
+        </main>
+
+        <footer></br>© 2025 Muhsinah Alaran</footer>
+    </body>
+
+</html>
